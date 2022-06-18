@@ -1,0 +1,184 @@
+/* Box sizing  */
+
+.container-fluid {
+    margin-left: 0%;
+    margin-right: 0%;
+    padding-left: 0%;
+    padding-right: 0%;
+    --bs-gutter-x: 0rem;
+}
+
+.cell {
+    padding: 10%;
+}
+
+.card {
+    border-style: none;    
+}
+
+.form-control {
+    border-left-color: #FFF;
+    border-top-color: #FFF;
+    border-right-color: #FFF;
+    border-bottom-color:#de688e;
+    border-radius: 0%;
+}
+
+.form-label {
+    max-height: 0em;
+}
+
+.frame {
+    border-color: #de688e;
+    padding-bottom: 80px;
+}
+
+.btn {
+    background-color: #A6466a;
+    color: #FFF;
+    padding: 8px 16px;
+    border-radius: 0%;
+    border-style: none;
+}
+
+/*  Typography  */
+
+h1 {
+    font-family: lust, Georgia, serif;
+    font-weight: 700;
+    font-size: calc(0.8rem + 2vw);
+    font-style: italic;
+    margin-block-end: 0em;
+    margin-block-start: 0em;
+    line-height:inherit;
+}
+
+h2, h3 {
+    font-family: brandon-grotesque, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1,h2 {
+    color: #A6466a;
+}
+
+h3 {
+    font-size: 1.4rem;
+    color: #de688e;
+}
+
+p {
+    font-family: ff-tisa-web-pro,serif;
+    font-weight: 300;
+    font-style: normal;
+    padding-top: 20px ;
+}
+
+/* Text decoration */
+
+
+.underline, .lineabove, .underline-menu {
+    display: inline-block;
+    position: relative;
+}
+ 
+.underline::after {
+    content: '';
+    height: 1px;
+    width: 60%;
+    background: #A6466a;
+    position: absolute;
+    left: 20%;
+    bottom: -5px;
+}
+
+.lineabove::after {
+    content: '';
+    height: 1px;
+    width: 100%;
+    background: #A6466a;
+    position: absolute;
+    left: 0%;
+    top: -5px;
+}
+
+.underline-menu::after {
+    content: '';
+    height: 1px;
+    width: 100%;
+    background: #FFF;
+    position: absolute;
+    left: 0%;
+    bottom: 20px;
+}
+
+/* Colours */
+
+
+.rosa {
+    color: #de688e;
+}
+
+.purple {
+    color: #A6466a;
+}
+
+.white {
+    color: #FFF;
+}
+
+footer {
+    background-color: #A6466a;
+}
+
+.up {
+    background-color: #de688e;
+    display: block;
+}
+
+/*   basic construction    */
+
+img {
+    width: 100%;
+}
+
+footer img, header img {
+    width: auto;
+    display: block;
+    margin: auto;
+    padding: 30px;
+}
+
+.name {
+    padding: 10px;
+}
+
+.name h1 {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* Menu */
+
+.dropdown-menu {
+    padding-top: 20vh;
+    padding-bottom:20vh;
+    width: 100vw;
+    height: 100vh;
+    background-color:#de688e;
+}
+
+li {
+    list-style-type: none;
+}
+
+li h2 {
+    color: #FFF;
+    line-height: 10vh;
+    font-size: calc(0.8rem + 3vw);
+}
+
+.dropdown img {
+    padding: 20px;
+}

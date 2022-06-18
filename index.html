@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.typekit.net/obu6dvs.css">
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand" id="navbar">
+        <div class="container-fluid row row-cols-3"> 
+            <div class="col">
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <li class="nav-item dropdown">
+                    <a class="nav-link" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <img src="img/menu.png" alt="burger menu">
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item text-center" href="#home"><h2 class="underline-menu">HOME</h2></a></li>
+                        <li><a class="dropdown-item text-center" href="#about"><h2 class="underline-menu">ABOUT</h2></a></li>
+                        <li><a class="dropdown-item text-center" href="#portfolio"><h2 class="underline-menu">PORTFOLIO</h2></a></li>
+                        <li><a class="dropdown-item text-center" href="#contact"><h2 class="underline-menu">CONTACT</h2></a></li>
+                    </ul>
+                    </li>
+                </div>
+            </div>
+            <div class="col d-flex justify-content-center">
+                <a class="navbar-brand d-flex" href="#"><h1 class="rosa">wede</h1><h1 class="purple">v</h1></a>
+            </div>    
+            <div class="col">
+            </div>    
+        </div>
+    </nav>
+    <section id="home">
+        <div class="container-fluid row-cols-1 row row-cols-xl-2">
+            <div class="col"><img src="img/hero.jpg"></div>
+            <div class="col cell">
+                <h1>Progress Over Perfection</h1>
+                <h3 class="lineabove">AUTHOR UNKNOWN</h3>
+                <p>Don't remember when and where I heard it, but it was inspiring and stayed with me. I will never be perfect. It'l like a hike, not only about the goal but also about the journey. </p>
+            </div>
+        </div>
+    </section>
+    <section id="portfolio">
+        <div class="container-fluid row-cols-1 row row-cols-xl-2">
+            <div class="col cell">
+                <div class="card text-center">
+                    <div class="card-body">
+                    <h2 class="card-title underline">PROJECT NAME</h2>
+                    <p class="card-text">Project description / With supporting text below as a natural lead-in to additional content.</p>
+                    <a href="#" class="btn btn-primary">Check it out</a>
+                    </div>
+                </div>              
+            </div>
+            <div class="col cell text-center">
+                <div class="project-bg">
+                    <h2 class="underline">PROJECT NAME</h2>
+                </div>
+            </div>
+        </div>
+    </section>    
+    <section id="about">    
+        <div class="container-fluid row-cols-1 row row-cols-xl-2">
+            <div class="col cell">
+                <div class="card text-center">
+                    <h1>About</h1>
+                    <p class="card-text">Project description / With supporting text below as a natural lead-in to additional content.</p>
+                </div>              
+            </div>
+            <div class="col">
+                <img src="img/weronika.jpg" alt="picture of Weronika" title="Weronika">
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container-fluid row-cols-1 row row-cols-xl-2">
+            <div class="col">
+                <img src="img/contact.jpg" alt="dices with contact icons" title="dices with contact icons">
+            </div>
+            <div class="col cell">
+                <div class="text-center"><h1>Contact</h1></div>
+                <div class="card text-center">
+                    <div class="mb-3">
+                        <!-- <label for="formGroupExampleInput" class="form-label"></label> -->
+                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="name:">
+                    </div>
+                    <div class="mb-3">
+                        <!-- <label for="formGroupExampleInput2" class="form-label"></label> -->
+                        <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="surname:">
+                    </div>
+                    <div class="mb-3">
+                        <!-- <label for="formGroupExampleInput" class="form-label"></label> -->
+                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="email:">
+                    </div>
+                    <div class="mb-3">
+                        <!-- <label for="formGroupExampleInput2" class="form-label"></label> -->
+                        <input type="text" class="form-control frame" id="formGroupExampleInput2" placeholder="how can I help?">
+                    </div> 
+                    <div class="col-12">
+                    <button type="submit" class="btn btn-primary">Sign in</button>
+                    </div>
+                </div>              
+            </div>
+        </div>
+    </section>
+    <footer class="container-fluid d-flex grid p-0">
+        <div class="col name align-middle">
+            <div class="d-flex">
+                <h1 class="rosa">we</h1><h1 class="white">ronika</h1><h1 class="rosa">&nbsp;de</h1><h1 class="white">rkowska</h1>
+            </div>
+        </div> 
+        <div class="up col-md-1"><a href="#navbar"><img src="img/arrow.png"></a></div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>
