@@ -20,6 +20,10 @@
     border-style: none;    
 }
 
+.card p {
+    align-self: center;
+}
+
 .card-body {
     padding: 0px;
 }
@@ -208,7 +212,7 @@ li h2 {
     width: 50vw;
     height: 50vw;
     text-align: center;
-    transition: transform 0.8s;
+    transition: transform 1.2s;
     transform-style: preserve-3d;
 }
   
